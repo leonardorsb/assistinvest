@@ -28,7 +28,7 @@ export default function PainelAgente() {
 
     try {
       // Faz o pedido simples e aguarda a resposta final (Sem streaming quebrado)
-      const res = await fetch("http://localhost:8000/api/agente", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/agente`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mensagem: mensagemUsuario, session_id: "carteira_principal" }),
