@@ -6,8 +6,11 @@ Um assistente virtual inteligente desenvolvido com **FastAPI** (Python) e **Next
 
 ## ✨ Funcionalidades
 - **Análise em Tempo Real:** Conecta-se à sua planilha do Google Sheets para ler cotações, preços teto e a sua carteira atual ("Holding").
+  <img width="1120" height="910" alt="image" src="https://github.com/user-attachments/assets/60ed0030-70bb-450f-a628-c45381e54c0f" />
 - **Estratégia Bola de Neve:** Filtra e sugere apenas ativos com margem de segurança atrativa.
 - **Filtro de Segurança:** A IA está programada para analisar estritamente ativos que você já possui e acompanha, evitando "alucinações" com tickers desconhecidos.
+  <img width="1120" height="910" alt="image" src="https://github.com/user-attachments/assets/0dc4d482-8c94-4485-b36e-1fc859b8da80" />
+
 - **Memória de Contexto:** Lembra-se da conversa durante a sessão para facilitar o registro de aportes.
 
 ## 🛠️ Tecnologias Utilizadas
