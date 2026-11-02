@@ -16,7 +16,7 @@ Um assistente virtual inteligente desenvolvido com **FastAPI** (Python) e **Next
 ## 🛠️ Tecnologias Utilizadas
 - **Backend:** Python, FastAPI, LangChain, SQLite (para memória).
 - **Frontend:** Next.js, React, Tailwind CSS, Lucide Icons.
-- **Integrações:** API do Google Sheets (Service Account) e IA [INSERIR QUAL LLM ESTÁ USANDO, EX: Google Gemini / OpenAI].
+- **Integrações:** API do Google Sheets (Service Account) e IA Gemini / OpenAI.
 
 ---
 
