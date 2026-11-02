@@ -45,7 +45,7 @@ export default function PainelAgente() {
       console.error(erro);
       setHistorico((prev) => [
         ...prev, 
-        { role: "agent", text: "Erro de conexão. Verifique se o backend Python está rodando na porta 8000." }
+        { role: "agent", text: "Erro de conexão com o servidor da IA. Tente novamente." }
       ]);
     } finally {
       setCarregando(false);
