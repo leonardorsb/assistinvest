@@ -11,3 +11,4 @@ langchain-google-genai
 greenlet
 duckduckgo-search
 ddgs
+aiosqlite
