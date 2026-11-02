@@ -14,12 +14,14 @@ app = FastAPI(title="API do Agente de Investimentos")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
-    allow_origins=["http://localhost:3000", "https://assistinvest.netlify.app/"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://assistinvest.netlify.app"
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 class ChatRequest(BaseModel):
     mensagem: str
     session_id: str = "carteira_principal"
