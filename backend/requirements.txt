@@ -7,3 +7,4 @@ sqlalchemy
 pandas
 python-dotenv
 requests
+langchain-google-genai
